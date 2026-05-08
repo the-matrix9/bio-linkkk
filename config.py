@@ -18,7 +18,7 @@ SUPPORT_GROUP      = os.environ.get("SUPPORT_GROUP", "https://t.me/rishu1286")
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001992970818))
 
 # ── Web / Health-check ─────────────────────────────────────────────────────────
-PORT = int(os.environ.get("PORT", 8080))
+PORT = int(os.environ.get("PORT", 8000))
 
 # ── Bot banner image ───────────────────────────────────────────────────────────
 START_IMG = os.environ.get(
